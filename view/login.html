@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Inscription</title>
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <a href="../index.html">Connexion</a>
+            <a class="titre" href="../index.html">Accueil</a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a><i id="logoutButton" class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </header>
+
+        <section class="wrapper">
+                <form id="form">
+                <h1>Connectez-vous</h1>
+                <section class="input-box">
+                    <input type="email" id="email" placeholder="Entrez votre email" required>
+                    <i class="fa-solid fa-user"></i>
+                </section>
+
+                <section class="input-box">
+                    <input type="password" id="password" placeholder="Entrez votre mot de passe" required>
+                    <i class="fa-solid fa-lock"></i>
+                </section>
+
+                <section class="remember-forgot">
+                    <label><input type="checkbox">Se souvenir de moi</label>
+                    <a href="#">Mot de passe oublié ?</a>
+                </section>
+
+                <input type="submit" class="btn" value="Connectez-vous">
+                <section class="register-link">
+                    <p>Vous n'avez pas de compte ? <a href="#">Enregistrez-vous</a></p>
+                </section>
+            </form>  
+        </section> 
+        </main>
+</body>
+</html>

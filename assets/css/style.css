@@ -8,6 +8,7 @@
 body{
   overflow-x: hidden;
   position: relative;
+  background-color: rgba(222, 184, 135, 0.437);
 }
 
 a {

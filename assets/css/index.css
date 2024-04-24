@@ -109,6 +109,46 @@ margin-top: 0px;
 }
 }
 
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav ul li {
+  position: relative;
+  display: inline-block;
+}
+
+/* Sous-menus */
+#nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9; /* Couleur de fond beige clair */
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+#nav ul ul li {
+  display: block;
+}
+
+#nav ul li:hover > ul {
+  display: block;
+}
+
+
+#nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(50, 46, 46);
+}
+
+#nav ul li a:hover {
+  background-color: #d1a682;
+}
+
 footer {
   background-color: #774738e1;
   color: #fff;

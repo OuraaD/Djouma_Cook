@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DjoumaCook</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="shortcut icon" href="assets/img/logogood.png" />
     <script src="assets/js/main.js" defer></script>
@@ -12,25 +12,65 @@
   <body>
     <header>
       <img class="logo" src="assets/img/logo.png" alt="logo" />
-      
+
       <nav id="nav">
-        <a href="">Recettes</a>
-        <a href="">Menu de la semaine</a>
-        <a href="">Recettes de saisons</a>
-        <a href="">Astuces digestion</a>
+        <ul>
+          <li>
+            <a href="">Recettes</a>
+            <ul>
+              <li><a href="#">Entrées</a></li>
+              <li><a href="#">Plats</a></li>
+              <li><a href="#">Desserts</a></li>
+              <li><a href="#">Rafraîchissements</a></li>
+              <li><a href="#">Recettes sans cuissons</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Menue de la semaine</a>
+            <ul>
+              <li><a href="#">Lundi</a></li>
+              <li><a href="#">Mardi</a></li>
+              <li><a href="#">Mercredi</a></li>
+              <li><a href="#">Jeudi</a></li>
+              <li><a href="#">Vendredi</a></li>
+              <li><a href="#">Samedi</a></li>
+              <li><a href="#">Dimanche</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="">Recette de saisons</a>
+            <ul>
+              <li><a href="#">Printemps</a></li>
+              <li><a href="#">Été</a></li>
+              <li><a href="#">Automne</a></li>
+              <li><a href="#">Hiver</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Astuces digestion</a>
+            <ul>
+              <li><a href="#">Aliments digestes</a></li>
+              <li><a href="#">Recettes légères</a></li>
+              <li><a href="#">Conseils santé</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="view/login.html">Connexion</a>
       </nav>
       <div class="burger" id="burger">
-        <img src="assets/img/burger (2).png" alt="menuburger">
-    </div>
+        <img src="assets/img/burger (2).png" alt="menuburger" />
+      </div>
     </header>
 
     <main>
-      <video class="video"
+      <video
+        class="video"
         src="assets/videos/videoaccueil.mp4"
         autoplay
         muted
         loop
-      width="100%"
+        width="100%"
       ></video>
       <p>
         DjoumaCook,<br />
@@ -80,6 +120,10 @@
       </section>
     </main>
     <footer>
+      <div class="social">
+        <h3>Nos réseaux sociaux</h3>
+        <p></p>
+      </div>
       <p>© 2024 DjoumaCook. Tous droits réservés.</p>
     </footer>
   </body>
