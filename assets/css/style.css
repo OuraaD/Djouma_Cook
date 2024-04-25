@@ -8,7 +8,7 @@
 body{
   overflow-x: hidden;
   position: relative;
-  background-color: rgba(222, 184, 135, 0.437);
+  /* background-color: rgba(222, 184, 135, 0.437); */
 }
 
 a {
@@ -59,10 +59,5 @@ main {
   align-items: center;
 }
 
-
- 
-/* .burger {
-  transition: 0.3s;
-} */
 
  
