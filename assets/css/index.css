@@ -1,4 +1,6 @@
 #centre {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
@@ -35,6 +37,9 @@
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
 }
 
+.idea p{
+  margin-top: 20px;
+}
 .burger {
   display: none;
   cursor: pointer;
@@ -95,6 +100,7 @@
   background-color: #d1a68260;
   padding: 10px;
   border-radius: 0 0 10px 10px;
+  z-index: 2;
 }
 
 #nav ul ul li {
@@ -116,60 +122,17 @@
   background-color: #d1a682;
 }
 
-.ingr{
+.carousel-inner{
+  margin-top: 50px;
+ 
+}
+
+.ingr {
   list-style: none;
 }
-/* 
-.carousel-inner{
-  width: 900px;
-  height: 850px;
-  margin-top:50px;
-  margin-left: 500px;
-  border: 0px solid black;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.219);
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.delulu{
+  display: flex;
+}
 footer {
   background-color: #774738e1;
   color: #fff;
