@@ -18,6 +18,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-align: center;
+  border-radius: 15px;
 }
 
 .idea h1 {
@@ -124,6 +125,8 @@
 
 .carousel-inner{
   margin-top: 50px;
+  border-radius: 10px;
+
  
 }
 
