@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure,
+article {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+
+figcaption,
+div {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.685);
+    color: white;
+    padding: 30px;
+    height: 441px;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    transition: 0.5s linear;
+}
+
+.caption{
+    color: white;
+}
+
+
+figure:hover>figcaption {
+    top: 0;
+}
+
+article:hover>div {
+    top: 0;
+}
+
+
+/* a>span::before {
+    content: "";
+    color: white;
+    animation: Oura 1s linear 3 forwards;
+
+} */
+
+@keyframes Oura{
+    0%{content: "en";}
+    30%{content: "en savoir";}
+    60%,100%{content: "en savoir plus";}
+    
+    
+}
+
