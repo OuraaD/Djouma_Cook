@@ -50,6 +50,64 @@ header.visible {
   height: 130px;
 }
 
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 870px) {
+
+  header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .burger:hover {
+    cursor: pointer;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Déplacer le menu hors de l'écran */
+    width: 40%; /* Largeur du menu */
+    height: 70%; /* Hauteur du menu */
+    background-color: rgba(192, 171, 171, 0.877); /* Couleur de fond du menu */
+    padding: 80px 20px; /* Espacement interne du menu */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espacement entre les éléments du menu */
+    z-index: 999; /* Assurer que le menu soit au-dessus des autres éléments */
+    transition: right 0.5s; /
+  }
+
+  nav.active {
+    left: 0;
+  
+  }
+
+nav a {
+  
+  display: block; /* Afficher les liens en tant que bloc pour occuper toute la largeur */
+  text-align: center; /* Centrer le texte dans les liens */
+  padding: 15px 0; /* Espacement interne des liens */
+}
+
+  .burger {
+    display: block;
+    display: block; /* Afficher le burger sur les petits écrans */
+    position: absolute; /* Position absolue pour pouvoir placer le burger */
+    top: 20px; /* Espacement depuis le haut */
+    right: 20px; /* Espacement depuis la droite */
+    z-index: 1000; 
+  }
+
+}
 nav {
   margin: auto;
 }
@@ -62,4 +120,13 @@ main {
   display: block;
   justify-content: center;
   align-items: center;
+}
+footer {
+  background-color: #774738e1;
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+ width: 100%;
+ 
 }
